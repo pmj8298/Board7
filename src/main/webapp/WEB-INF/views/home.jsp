@@ -27,6 +27,7 @@
 	<div>&nbsp;</div>
 	<div><a href="/BoardPaging/List?menu_id=MENU01">게시물 목록(페이징)</a></div>
 	<div><a href="/BoardPaging/WriteForm?menu_id=MENU01">게시물 등록(페이징)</a></div>
+	<div>&nbsp;</div>
 	
 	<c:if test="${sessionScope.login == null || login == '' }">
 	<div><a href="/loginForm">로그인</a></div>
